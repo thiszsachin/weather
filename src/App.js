@@ -13,7 +13,7 @@ function App() {
   
 
   const fetchCityWeather = () => {
-      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=4a2d0d7c0535af3cb0ef3369f09130fb`)
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=4a2d0d7c0535af3cb0ef3369f09130fb`)
       .then((res) => res.json())
       .then(result =>{
         if(result.cod !== "404"){

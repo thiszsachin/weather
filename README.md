@@ -1,4 +1,4 @@
-hosted link thirsty-shaw-b8ef43.netlify.app/
+[hosted link](https://thirsty-shaw-b8ef43.netlify.app/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

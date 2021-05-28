@@ -21,8 +21,8 @@ const WeatherCity = ({weather, weatherCity, weatherNumber}) => {
                 <hr/>
                 <Row>
                 {/* <span className="text-info">Temperature</span> */}
-                    <Col xs={6}><FaTemperatureHigh/> : {weatherNumber.temp} <RiCelsiusFill/></Col>
-                    <Col xs={6}><WiHumidity/> : {weatherNumber.humidity}</Col>
+                    <Col xs={6}><FaTemperatureHigh color="orange"/> : {weatherNumber.temp} <RiCelsiusFill/></Col>
+                    <Col xs={6}><WiHumidity color="orange"/> : {weatherNumber.humidity}</Col>
                 </Row>
                 <hr/>
                 <p className="mb-0">{weather.description}</p>

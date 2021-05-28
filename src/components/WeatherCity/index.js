@@ -4,6 +4,10 @@ import Error from '../Error';
 import {FaTemperatureHigh} from "react-icons/fa"
 import {WiHumidity} from "react-icons/wi"
 
+import {RiCelsiusFill} from "react-icons/ri"
+
+
+
 
 
 const WeatherCity = ({weather, weatherCity, weatherNumber}) => {
@@ -17,7 +21,7 @@ const WeatherCity = ({weather, weatherCity, weatherNumber}) => {
                 <hr/>
                 <Row>
                 {/* <span className="text-info">Temperature</span> */}
-                    <Col xs={6}><FaTemperatureHigh/> : {weatherNumber.temp}</Col>
+                    <Col xs={6}><FaTemperatureHigh/> : {weatherNumber.temp} <RiCelsiusFill/></Col>
                     <Col xs={6}><WiHumidity/> : {weatherNumber.humidity}</Col>
                 </Row>
                 <hr/>
